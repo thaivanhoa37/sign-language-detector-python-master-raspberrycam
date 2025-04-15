@@ -72,3 +72,56 @@ Dưới đây là các phiên bản thư viện được sử dụng:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+# SSH and VNC Setup Guide for Raspberry Pi
+
+## 1. Check SSH Status
+
+```bash
+sudo systemctl status ssh
+```
+
+## 2. Install SSH (if not already installed)
+
+```bash
+sudo apt-get update
+sudo apt-get install openssh-server
+```
+
+## 3. Enable and Start SSH Service
+
+```bash
+sudo systemctl enable ssh
+sudo systemctl start ssh
+```
+
+## 4. Enable VNC on Raspberry Pi
+
+```bash
+sudo raspi-config
+```
+
+### In the menu, navigate to:
+
+- **Interface Options**
+- **VNC**
+- Select **Yes** to enable
+
+## 5. Start VNC Server
+
+```bash
+vncserver
+```
+
+
