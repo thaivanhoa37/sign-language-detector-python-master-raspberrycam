@@ -19,6 +19,11 @@ Sau khi cài đặt, kiểm tra xem Picammera2 đã được cài đặt thành 
 ```bash
 python3 -c "from picamera2 import Picamera2; print('Picamera2 is installed and working\!')"
 ```
+để kiểm tra version picammera2 
+```bash
+pip show picamera2
+```
+
 
 Để cài đặt OpenCV qua `apt`, chạy các lệnh sau:
 
