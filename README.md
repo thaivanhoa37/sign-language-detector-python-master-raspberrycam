@@ -100,7 +100,7 @@ Dưới đây là các phiên bản thư viện được sử dụng:
 
 
 
-
+# Hướng dẫn SSH  để VNC 
 # SSH and VNC Setup Guide for Raspberry Pi
 
 ## 1. Check SSH Status
