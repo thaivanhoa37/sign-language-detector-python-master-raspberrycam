@@ -69,7 +69,7 @@ python3 -c "import sklearn; print(sklearn.__version__)"
 ## Phiên bản
 
 Dưới đây là các phiên bản thư viện được sử dụng:
-
+- **Picamera2:** 0.3.25
 - **Python:** 3.11.2
 - **OpenCV:** 4.11.0
 - **MediaPipe:** 0.10.18
