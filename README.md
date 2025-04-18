@@ -6,7 +6,19 @@
 
 Để chạy code trên Raspberry Pi, bạn cần cài đặt một số thư viện Python. Dưới đây là các bước chi tiết để cài đặt OpenCV, MediaPipe và Scikit-learn.
 
-## 1. Cài đặt OpenCV
+## 1. Cài đặt OpenCV,Picammera2
+Để cài đặt Picammera2 qua `apt`, chạy các lệnh sau:
+
+```bash
+sudo apt update
+sudo apt install -y python3-picamera2
+```
+
+Sau khi cài đặt, kiểm tra xem Picammera2 đã được cài đặt thành công chưa bằng cách:
+
+```bash
+python3 -c "from picamera2 import Picamera2; print('Picamera2 is installed and working\!')"
+```
 
 Để cài đặt OpenCV qua `apt`, chạy các lệnh sau:
 
